@@ -1,0 +1,25 @@
+Per-resume rules inserted into the tailor prompt as {{RESUME_RULES}}. One section per role family.
+v2: keep most of the candidate's bullets (start from the full resume, reorder, trim only what is
+irrelevant or redundant) so employers see the candidate's full range, not just the JD's keywords.
+
+=== software_ict ===
+Sections: Summary, Work Experience, Application Projects, Skills, Achievements, Certifications.
+- experience: include every entry with kind "work" that is eligible, in reverse-chronological order (as listed).
+- Bullets: start from ALL of an entry's bullets, put the ones most relevant to this JD first, and drop only bullets that are clearly irrelevant to a software role or that repeat another selected bullet (e.g. two bullets about testing: keep the stronger one). Bullets the JD doesn't mention are still valuable: they show range. Targets: 8-10 bullets for the current role, 4-5 for the previous role, 2-3 for internships.
+- projects: the 3 projects most relevant to this JD, 2-3 bullets each.
+- skill_groups: 8-10 groups with short labels such as "Programming", "Web & Application Development", "Backend & Integration", "Mobile", "Databases", "Testing & Quality", "Cloud & DevOps", "AI & Automation", "Project Management". Include all of the candidate's relevant core/project skills, not only the JD's; up to 7 per group, JD-relevant ones first.
+- workshop_ids: leave empty.
+- achievement_ids: all achievements with section "achievements" plus all with section "leadership".
+- certification_ids: all certifications, most relevant first.
+- Length: the result should fill about two pages, like the original resume. Don't cut it down to one page.
+
+=== teaching ===
+Sections: Summary, Teaching Experience, Work Experience, (optional) Projects, two skills sections, Certifications.
+- experience: include the "activity" entries (teaching experience) AND every eligible "work" entry.
+- Bullets: keep ALL bullets of each "activity" entry (most relevant first). For "work" entries, keep 4 bullets for the current role and 3 for each older role, preferring bullets about training, mentoring, communication, client work and the technologies the JD mentions; drop only near-duplicates.
+- projects: at most 2, and only when the JD clearly values them (e.g. AI or programming teaching); otherwise empty.
+- skill_groups: exactly two groups, labelled "Computer Science & AI Competencies" (technical skills) and "Teaching & Professional Skills" (teaching and soft skills). 10-14 skills each.
+- workshop_ids: all workshops, most relevant to the JD first.
+- achievement_ids: all achievements with section "leadership".
+- certification_ids: all certifications, most relevant first.
+- Length: the result should fill about two pages, like the original resume.

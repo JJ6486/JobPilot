@@ -1,0 +1,21 @@
+# Private data: truth bank, resumes, generated outputs, database
+data/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

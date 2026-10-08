@@ -1,0 +1,143 @@
+# Fake candidate for tests. Never put real personal data here.
+profile:
+  full_name: "Test Candidate"
+  email: "test.candidate@example.com"
+  phone: "+966500000000"
+  location: "Jeddah, Saudi Arabia"
+  phone_display: "+966 50 000 0000"
+  location_display: "Jeddah, K.S.A"
+  links:
+    linkedin: "https://www.linkedin.com/in/test-candidate/"
+    portfolio: "https://example.com"
+
+constraints:
+  current_country: "Saudi Arabia"
+  visa_status: "Transferable Iqama"
+  can_transfer_iqama: true
+  nationality: "Indian"
+  accepted_cities: ["Jeddah", "Riyadh"]
+  open_to_relocation: false
+  open_to_remote: true
+  teaching_licence: "none"
+  languages:
+    - { name: "English", level: "Fluent" }
+    - { name: "Arabic", level: "Intermediate" }
+  min_salary_sar: 5000
+  earliest_start: "Immediate"
+
+role_families:
+  software_ict:
+    base_resume: "sw.docx"
+    template: "software_ict.docx"
+    headline: "Software Engineer"
+    summary_options:
+      - id: sum_sw_1
+        text: "Software Engineer with more than 3 years of experience building React and Flutter apps."
+  teaching:
+    base_resume: "tm.docx"
+    template: "teaching.docx"
+    headline: "Computer Science Teacher"
+    summary_options:
+      - id: sum_tm_1
+        text: "Engineer who has delivered 25+ workshops for students."
+
+experience:
+  - id: exp_1
+    kind: work
+    company: "Acme Software"
+    title: "Software Engineer"
+    location: "Remote"
+    start: "March 2025"
+    end: "Present"
+    role_families: [software_ict, teaching]
+    bullets:
+      - id: exp_1_b1
+        text: "Developed Flutter applications for Android and iOS from a single codebase."
+        skills: ["Flutter"]
+      - id: exp_1_b2
+        text: "Built React web apps that integrated REST APIs for 12 clients."
+        skills: ["React", "REST APIs"]
+  - id: exp_2
+    kind: work
+    company: "Beta Labs"
+    title: "Trainer"
+    location: "Kochi, India"
+    start: "January 2024"
+    end: "February 2025"
+    role_families: [software_ict, teaching]
+    bullets:
+      - id: exp_2_b1
+        text: "Delivered technical training to college students."
+        skills: ["Technical Training"]
+  - id: exp_3
+    kind: activity
+    company: "Student Club"
+    short_name: "Club"
+    title: "Mentor"
+    start: "2022"
+    end: "2024"
+    role_families: [teaching]
+    bullets:
+      - id: exp_3_b1
+        text: "Mentored 40 students in project-based learning."
+        skills: ["Technical Training"]
+
+workshops:
+  - id: ws_1
+    title: "Intro to Testing"
+    event: "TechFest"
+    year: "2024"
+    text: "hands-on session on software testing."
+
+projects:
+  - id: proj_1
+    name: "Chat Assistant"
+    description: "An AI research assistant."
+    url: "https://example.com/chat"
+    role_families: [software_ict]
+    bullets:
+      - id: proj_1_b1
+        text: "Built an AI research assistant with React and the Gemini API."
+        skills: ["React", "Gemini API"]
+
+achievements:
+  - id: ach_1
+    title: "Winner – Example Hackathon"
+    issuer: "Example Org"
+    year: "2026"
+    text: "Won with the Chat Assistant project."
+    evidence: ["proj_1"]
+  - id: ach_2
+    title: "Club lead"
+    text: "Led the student club."
+    section: leadership
+
+education:
+  - id: edu_1
+    institution: "Example Institute of Technology"
+    degree: "Bachelor of Technology"
+    field: "Computer Science and Engineering"
+    start: "2020"
+    end: "2024"
+
+certifications:
+  - id: cert_1
+    name: "Professional Accreditation"
+    issuer: "Example Ministry"
+    year: "2026"
+    url_local_only: "https://verify.example.com/check?passport=X1234567"
+
+skills:
+  - { name: "React", level: core, evidence: ["exp_1_b2"], aliases: ["React.js"], adjacent_to: ["Vue", "Angular"] }
+  - { name: "Flutter", level: core, evidence: ["exp_1_b1"], adjacent_to: ["React Native"] }
+  - { name: "REST APIs", level: core, evidence: ["exp_1_b2"], aliases: ["REST"] }
+  - { name: "Gemini API", level: project, evidence: ["proj_1_b1"] }
+  - { name: "Technical Training", level: core, evidence: ["exp_2_b1"] }
+  - { name: "Docker", level: learning }
+
+never_claim:
+  - "Saudi teaching licence"
+
+writing_preferences:
+  tone: "professional, warm, concise"
+  avoid_phrases: ["passionate", "results-driven"]

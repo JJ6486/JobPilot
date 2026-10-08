@@ -1,0 +1,42 @@
+Software Engineer - Himmah Program
+Mozn
+Riyadh
+Full-time
+Full job description
+About Mozn
+
+MOZN is a leading Enterprise AI company enabling organizations to make informed decisions in two critical domains: Financial Crime Prevention and Enterprise Knowledge Intelligence.
+
+We’re a diverse, collaborative team of innovators united by a shared purpose: to build AI that delivers tangible business value, builds trust, and empowers people and organizations with augmented intelligence. Our culture is built on the relentless pursuit of excellence and meaningful impact.
+
+If you’re passionate about working alongside exceptional talent on world-class AI, and you want the autonomy and runway to do the best work of your career, join us in shaping the future of intelligent enterprises.
+
+About the role
+We are seeking a talented Software Engineer to join our AI-focused company. In this role, you will design and deliver scalable applications and platforms that power our AI-driven solutions. You will play a key role in building robust systems that integrate data, machine learning, and user interfaces to meet the needs of public and private sector clients in Saudi Arabia.
+
+What you'll do
+
+Developing and maintaining full stack applications with strong front-end and back-end capabilities
+Designing user-friendly interfaces and integrate them with AI-powered back-end services
+Collaborating with data scientists, ML engineers, and stakeholders to embed AI solutions into software products
+Ensuring software systems are secure, scalable, and compliant with local regulations (e.g., PDPL)
+Contributing to API development, microservices architecture, and seamless data/model integration
+Supporting consultation projects by tailoring software solutions to client requirements
+Leading best practices in coding standards, testing, and CI/CD pipelines
+Mentoring junior engineers and contribute to continuous improvement of engineering practices
+Qualifications
+
+Bachelor’s or Master’s degree in Computer Science, Software Engineering, or related field
+Experience working in Saudi Arabia, delivering consultation services to public and private sector clients
+Proficiency in modern front-end frameworks (React, Angular, Vue, etc) and back-end frameworks (Node.js, Django, etc)
+Strong skills in JavaScript/TypeScript, and Python
+Knowledge of microservices, APIs, and cloud-native development
+Familiarity with AI/ML solution integration is a strong plus
+Experience with DevOps practices, CI/CD, and containerization
+Benefits
+
+You will be at the forefront of an exciting time for the Middle East, joining a high-growth rocket-ship in an exciting space
+You will be given a lot of responsibility and trust. We believe that the best results come when the people responsible for a function are given the freedom to do what they think is best
+The fundamentals will be taken care of: competitive compensation, top-tier health insurance, and an enabling culture so that you can focus on what you do best
+You will enjoy a fun and dynamic workplace working alongside some of the greatest minds in AI
+We believe strength lies in difference, embracing all for who they are and empowered to be the best version of themselves

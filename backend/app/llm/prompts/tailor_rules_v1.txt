@@ -1,0 +1,19 @@
+Per-resume rules inserted into the tailor prompt as {{RESUME_RULES}}. One section per role family.
+
+=== software_ict ===
+Sections: Summary, Work Experience, Application Projects, Skills, Achievements, Certifications.
+- experience: include every entry with kind "work" that is eligible, in reverse-chronological order (as listed). 3-7 bullets for the current role, 2-4 for older roles.
+- projects: the 2-3 projects most relevant to this JD, 1-3 bullets each.
+- skill_groups: 6-10 groups with short labels such as "Programming", "Web & Application Development", "Backend & Integration", "Mobile", "Databases", "Testing & Quality", "Cloud & DevOps", "AI & Automation", "Project Management". Up to 7 skills per group.
+- workshop_ids: leave empty.
+- achievement_ids: relevant achievements with section "achievements" plus all with section "leadership".
+- certification_ids: all certifications, most relevant first.
+
+=== teaching ===
+Sections: Summary, Teaching Experience, Work Experience, (optional) Projects, two skills sections, Certifications.
+- experience: include the "activity" entries (teaching experience) AND every eligible "work" entry. 3-4 bullets for each activity entry; 2-4 bullets for each work entry, preferring bullets about training, mentoring, communication and the technologies the JD mentions.
+- projects: at most 2, and only when the JD clearly values them (e.g. AI or programming teaching); otherwise empty.
+- skill_groups: exactly two groups, labelled "Computer Science & AI Competencies" (technical skills) and "Teaching & Professional Skills" (teaching and soft skills). 8-14 skills each.
+- workshop_ids: the 3-5 workshops most relevant to the JD.
+- achievement_ids: all achievements with section "leadership".
+- certification_ids: all certifications, most relevant first.
